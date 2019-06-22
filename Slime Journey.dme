@@ -1,0 +1,39 @@
+// DM Environment file for SlimeJourney.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: Items.dm
+DIR:
+MAP_ICON_TYPE: 0
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "backup"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Admin.dm"
+#include "Items.dm"
+#include "JobLevel.dm"
+#include "Level.dm"
+#include "Main.dm"
+#include "MonsterNumber.dm"
+#include "Monsters.dm"
+#include "MonsterSpells.dm"
+#include "NewBattle.dm"
+#include "People.dm"
+#include "PlayerSpells.dm"
+#include "RandomMap.dm"
+#include "turfs.dm"
+#include "vars.dm"
+#include "World.dmp"
+// END_INCLUDE
+
